@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1002C5B1E8832EC000028B4 /* BridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002C5A1E8832EC000028B4 /* BridgeViewController.swift */; };
+		F1002C5D1E883492000028B4 /* BridgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002C5C1E883492000028B4 /* BridgeTableViewCell.swift */; };
+		F1002C5F1E8852A0000028B4 /* BridgeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1002C5E1E8852A0000028B4 /* BridgeDetailViewController.swift */; };
+		F16DEF5D1E81816B00AF4E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF5C1E81816B00AF4E5B /* AppDelegate.swift */; };
+		F16DEF641E81816B00AF4E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16DEF621E81816B00AF4E5B /* Main.storyboard */; };
+		F16DEF661E81816B00AF4E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16DEF651E81816B00AF4E5B /* Assets.xcassets */; };
+		F16DEF691E81816B00AF4E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16DEF671E81816B00AF4E5B /* LaunchScreen.storyboard */; };
+		F16DEF741E81816B00AF4E5B /* SlapMetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF731E81816B00AF4E5B /* SlapMetroTests.swift */; };
+		F16DEF7F1E81816B00AF4E5B /* SlapMetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF7E1E81816B00AF4E5B /* SlapMetroUITests.swift */; };
+		F16DEF8D1E818AD900AF4E5B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF8C1E818AD900AF4E5B /* TabBarController.swift */; };
+		F16DEF901E818CA700AF4E5B /* MtaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF8F1E818CA700AF4E5B /* MtaData.swift */; };
+		F16DEF921E819FA000AF4E5B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF911E819FA000AF4E5B /* Line.swift */; };
+		F16DEF941E81C48200AF4E5B /* LirrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF931E81C48200AF4E5B /* LirrViewController.swift */; };
+		F16DEF961E81D6F200AF4E5B /* LirrTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DEF951E81D6F200AF4E5B /* LirrTableViewCell.swift */; };
+		F1ACCF0F1E870663001920A1 /* MetroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACCF0E1E870663001920A1 /* MetroViewController.swift */; };
+		F1ACCF111E8707AC001920A1 /* MetroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACCF101E8707AC001920A1 /* MetroTableViewCell.swift */; };
+		F1ACCF131E8729DD001920A1 /* MetroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACCF121E8729DD001920A1 /* MetroDetailViewController.swift */; };
+		F1EC8DF81E82AF6F00A23EF1 /* LirrDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC8DF71E82AF6F00A23EF1 /* LirrDetailViewController.swift */; };
+		F1EC8DFE1E82EE9500A23EF1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1EC8DFD1E82EE9500A23EF1 /* Settings.bundle */; };
+		F1EC8E011E82F87600A23EF1 /* SubwayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC8E001E82F87600A23EF1 /* SubwayTableViewCell.swift */; };
+		F1EC8E031E82F9C400A23EF1 /* SubwayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC8E021E82F9C400A23EF1 /* SubwayViewController.swift */; };
+		F1EC8E071E83171700A23EF1 /* SubwayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC8E061E83171700A23EF1 /* SubwayDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16DEF701E81816B00AF4E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16DEF511E81816B00AF4E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16DEF581E81816B00AF4E5B;
+			remoteInfo = SlapMetro;
+		};
+		F16DEF7B1E81816B00AF4E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16DEF511E81816B00AF4E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16DEF581E81816B00AF4E5B;
+			remoteInfo = SlapMetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1002C5A1E8832EC000028B4 /* BridgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeViewController.swift; sourceTree = "<group>"; };
+		F1002C5C1E883492000028B4 /* BridgeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeTableViewCell.swift; sourceTree = "<group>"; };
+		F1002C5E1E8852A0000028B4 /* BridgeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeDetailViewController.swift; sourceTree = "<group>"; };
+		F16DEF591E81816B00AF4E5B /* SlapMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlapMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16DEF5C1E81816B00AF4E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16DEF631E81816B00AF4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16DEF651E81816B00AF4E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16DEF681E81816B00AF4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16DEF6A1E81816B00AF4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16DEF6F1E81816B00AF4E5B /* SlapMetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlapMetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16DEF731E81816B00AF4E5B /* SlapMetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapMetroTests.swift; sourceTree = "<group>"; };
+		F16DEF751E81816B00AF4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16DEF7A1E81816B00AF4E5B /* SlapMetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlapMetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16DEF7E1E81816B00AF4E5B /* SlapMetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapMetroUITests.swift; sourceTree = "<group>"; };
+		F16DEF801E81816B00AF4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16DEF8C1E818AD900AF4E5B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F16DEF8F1E818CA700AF4E5B /* MtaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MtaData.swift; sourceTree = "<group>"; };
+		F16DEF911E819FA000AF4E5B /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		F16DEF931E81C48200AF4E5B /* LirrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LirrViewController.swift; sourceTree = "<group>"; };
+		F16DEF951E81D6F200AF4E5B /* LirrTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LirrTableViewCell.swift; sourceTree = "<group>"; };
+		F1ACCF0E1E870663001920A1 /* MetroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroViewController.swift; sourceTree = "<group>"; };
+		F1ACCF101E8707AC001920A1 /* MetroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroTableViewCell.swift; sourceTree = "<group>"; };
+		F1ACCF121E8729DD001920A1 /* MetroDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroDetailViewController.swift; sourceTree = "<group>"; };
+		F1EC8DF71E82AF6F00A23EF1 /* LirrDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LirrDetailViewController.swift; sourceTree = "<group>"; };
+		F1EC8DFD1E82EE9500A23EF1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F1EC8E001E82F87600A23EF1 /* SubwayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubwayTableViewCell.swift; sourceTree = "<group>"; };
+		F1EC8E021E82F9C400A23EF1 /* SubwayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubwayViewController.swift; sourceTree = "<group>"; };
+		F1EC8E061E83171700A23EF1 /* SubwayDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubwayDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16DEF561E81816B00AF4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF6C1E81816B00AF4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF771E81816B00AF4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F121EBBF1E83598E003D7144 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF6A1E81816B00AF4E5B /* Info.plist */,
+				F1EC8DFD1E82EE9500A23EF1 /* Settings.bundle */,
+				F16DEF651E81816B00AF4E5B /* Assets.xcassets */,
+				F16DEF671E81816B00AF4E5B /* LaunchScreen.storyboard */,
+				F16DEF8C1E818AD900AF4E5B /* TabBarController.swift */,
+				F16DEF621E81816B00AF4E5B /* Main.storyboard */,
+				F16DEF5C1E81816B00AF4E5B /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F16DEF501E81816B00AF4E5B = {
+			isa = PBXGroup;
+			children = (
+				F16DEF5B1E81816B00AF4E5B /* SlapMetro */,
+				F16DEF721E81816B00AF4E5B /* SlapMetroTests */,
+				F16DEF7D1E81816B00AF4E5B /* SlapMetroUITests */,
+				F16DEF5A1E81816B00AF4E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16DEF5A1E81816B00AF4E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF591E81816B00AF4E5B /* SlapMetro.app */,
+				F16DEF6F1E81816B00AF4E5B /* SlapMetroTests.xctest */,
+				F16DEF7A1E81816B00AF4E5B /* SlapMetroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16DEF5B1E81816B00AF4E5B /* SlapMetro */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC8DFF1E82F81D00A23EF1 /* Cells */,
+				F1EC8E041E82FB3A00A23EF1 /* ViewControlers */,
+				F1EC8E051E8316CD00A23EF1 /* DetailViewControllers */,
+				F121EBBF1E83598E003D7144 /* Main */,
+				F16DEF8E1E818B8A00AF4E5B /* Model */,
+			);
+			path = SlapMetro;
+			sourceTree = "<group>";
+		};
+		F16DEF721E81816B00AF4E5B /* SlapMetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF731E81816B00AF4E5B /* SlapMetroTests.swift */,
+				F16DEF751E81816B00AF4E5B /* Info.plist */,
+			);
+			path = SlapMetroTests;
+			sourceTree = "<group>";
+		};
+		F16DEF7D1E81816B00AF4E5B /* SlapMetroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF7E1E81816B00AF4E5B /* SlapMetroUITests.swift */,
+				F16DEF801E81816B00AF4E5B /* Info.plist */,
+			);
+			path = SlapMetroUITests;
+			sourceTree = "<group>";
+		};
+		F16DEF8E1E818B8A00AF4E5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF8F1E818CA700AF4E5B /* MtaData.swift */,
+				F16DEF911E819FA000AF4E5B /* Line.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1EC8DFF1E82F81D00A23EF1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F16DEF951E81D6F200AF4E5B /* LirrTableViewCell.swift */,
+				F1EC8E001E82F87600A23EF1 /* SubwayTableViewCell.swift */,
+				F1002C5C1E883492000028B4 /* BridgeTableViewCell.swift */,
+				F1ACCF101E8707AC001920A1 /* MetroTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F1EC8E041E82FB3A00A23EF1 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC8E021E82F9C400A23EF1 /* SubwayViewController.swift */,
+				F16DEF931E81C48200AF4E5B /* LirrViewController.swift */,
+				F1ACCF0E1E870663001920A1 /* MetroViewController.swift */,
+				F1002C5A1E8832EC000028B4 /* BridgeViewController.swift */,
+			);
+			name = ViewControlers;
+			sourceTree = "<group>";
+		};
+		F1EC8E051E8316CD00A23EF1 /* DetailViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC8DF71E82AF6F00A23EF1 /* LirrDetailViewController.swift */,
+				F1ACCF121E8729DD001920A1 /* MetroDetailViewController.swift */,
+				F1EC8E061E83171700A23EF1 /* SubwayDetailViewController.swift */,
+				F1002C5E1E8852A0000028B4 /* BridgeDetailViewController.swift */,
+			);
+			name = DetailViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16DEF581E81816B00AF4E5B /* SlapMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16DEF831E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetro" */;
+			buildPhases = (
+				F16DEF551E81816B00AF4E5B /* Sources */,
+				F16DEF561E81816B00AF4E5B /* Frameworks */,
+				F16DEF571E81816B00AF4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlapMetro;
+			productName = SlapMetro;
+			productReference = F16DEF591E81816B00AF4E5B /* SlapMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16DEF6E1E81816B00AF4E5B /* SlapMetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16DEF861E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetroTests" */;
+			buildPhases = (
+				F16DEF6B1E81816B00AF4E5B /* Sources */,
+				F16DEF6C1E81816B00AF4E5B /* Frameworks */,
+				F16DEF6D1E81816B00AF4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16DEF711E81816B00AF4E5B /* PBXTargetDependency */,
+			);
+			name = SlapMetroTests;
+			productName = SlapMetroTests;
+			productReference = F16DEF6F1E81816B00AF4E5B /* SlapMetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16DEF791E81816B00AF4E5B /* SlapMetroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16DEF891E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetroUITests" */;
+			buildPhases = (
+				F16DEF761E81816B00AF4E5B /* Sources */,
+				F16DEF771E81816B00AF4E5B /* Frameworks */,
+				F16DEF781E81816B00AF4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16DEF7C1E81816B00AF4E5B /* PBXTargetDependency */,
+			);
+			name = SlapMetroUITests;
+			productName = SlapMetroUITests;
+			productReference = F16DEF7A1E81816B00AF4E5B /* SlapMetroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16DEF511E81816B00AF4E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Stephen La Pierre";
+				TargetAttributes = {
+					F16DEF581E81816B00AF4E5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A8SM67P986;
+						ProvisioningStyle = Automatic;
+					};
+					F16DEF6E1E81816B00AF4E5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A8SM67P986;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F16DEF581E81816B00AF4E5B;
+					};
+					F16DEF791E81816B00AF4E5B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A8SM67P986;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F16DEF581E81816B00AF4E5B;
+					};
+				};
+			};
+			buildConfigurationList = F16DEF541E81816B00AF4E5B /* Build configuration list for PBXProject "SlapMetro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16DEF501E81816B00AF4E5B;
+			productRefGroup = F16DEF5A1E81816B00AF4E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16DEF581E81816B00AF4E5B /* SlapMetro */,
+				F16DEF6E1E81816B00AF4E5B /* SlapMetroTests */,
+				F16DEF791E81816B00AF4E5B /* SlapMetroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16DEF571E81816B00AF4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EC8DFE1E82EE9500A23EF1 /* Settings.bundle in Resources */,
+				F16DEF691E81816B00AF4E5B /* LaunchScreen.storyboard in Resources */,
+				F16DEF661E81816B00AF4E5B /* Assets.xcassets in Resources */,
+				F16DEF641E81816B00AF4E5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF6D1E81816B00AF4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF781E81816B00AF4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16DEF551E81816B00AF4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16DEF941E81C48200AF4E5B /* LirrViewController.swift in Sources */,
+				F1ACCF111E8707AC001920A1 /* MetroTableViewCell.swift in Sources */,
+				F16DEF8D1E818AD900AF4E5B /* TabBarController.swift in Sources */,
+				F16DEF901E818CA700AF4E5B /* MtaData.swift in Sources */,
+				F1002C5F1E8852A0000028B4 /* BridgeDetailViewController.swift in Sources */,
+				F16DEF921E819FA000AF4E5B /* Line.swift in Sources */,
+				F16DEF5D1E81816B00AF4E5B /* AppDelegate.swift in Sources */,
+				F1EC8E031E82F9C400A23EF1 /* SubwayViewController.swift in Sources */,
+				F1EC8E011E82F87600A23EF1 /* SubwayTableViewCell.swift in Sources */,
+				F1EC8E071E83171700A23EF1 /* SubwayDetailViewController.swift in Sources */,
+				F1ACCF131E8729DD001920A1 /* MetroDetailViewController.swift in Sources */,
+				F16DEF961E81D6F200AF4E5B /* LirrTableViewCell.swift in Sources */,
+				F1EC8DF81E82AF6F00A23EF1 /* LirrDetailViewController.swift in Sources */,
+				F1002C5D1E883492000028B4 /* BridgeTableViewCell.swift in Sources */,
+				F1ACCF0F1E870663001920A1 /* MetroViewController.swift in Sources */,
+				F1002C5B1E8832EC000028B4 /* BridgeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF6B1E81816B00AF4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16DEF741E81816B00AF4E5B /* SlapMetroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16DEF761E81816B00AF4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16DEF7F1E81816B00AF4E5B /* SlapMetroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16DEF711E81816B00AF4E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16DEF581E81816B00AF4E5B /* SlapMetro */;
+			targetProxy = F16DEF701E81816B00AF4E5B /* PBXContainerItemProxy */;
+		};
+		F16DEF7C1E81816B00AF4E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16DEF581E81816B00AF4E5B /* SlapMetro */;
+			targetProxy = F16DEF7B1E81816B00AF4E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16DEF621E81816B00AF4E5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16DEF631E81816B00AF4E5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16DEF671E81816B00AF4E5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16DEF681E81816B00AF4E5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16DEF811E81816B00AF4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16DEF821E81816B00AF4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16DEF841E81816B00AF4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F16DEF851E81816B00AF4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F16DEF871E81816B00AF4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlapMetro.app/SlapMetro";
+			};
+			name = Debug;
+		};
+		F16DEF881E81816B00AF4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlapMetro.app/SlapMetro";
+			};
+			name = Release;
+		};
+		F16DEF8A1E81816B00AF4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlapMetro;
+			};
+			name = Debug;
+		};
+		F16DEF8B1E81816B00AF4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A8SM67P986;
+				INFOPLIST_FILE = SlapMetroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.slapware.SlapMetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlapMetro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16DEF541E81816B00AF4E5B /* Build configuration list for PBXProject "SlapMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16DEF811E81816B00AF4E5B /* Debug */,
+				F16DEF821E81816B00AF4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16DEF831E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16DEF841E81816B00AF4E5B /* Debug */,
+				F16DEF851E81816B00AF4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16DEF861E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16DEF871E81816B00AF4E5B /* Debug */,
+				F16DEF881E81816B00AF4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16DEF891E81816B00AF4E5B /* Build configuration list for PBXNativeTarget "SlapMetroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16DEF8A1E81816B00AF4E5B /* Debug */,
+				F16DEF8B1E81816B00AF4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16DEF511E81816B00AF4E5B /* Project object */;
+}
